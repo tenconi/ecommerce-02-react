@@ -1,0 +1,47 @@
+nav{
+    background: #1976d2;  
+    display: inline-flex;
+    width: 100%; 
+    padding:0px!important;
+    height: 80px;
+}
+nav .container{
+    width: 80%;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+}
+.linkBrand{
+    text-decoration: none;
+    color:white
+}
+/* nav */
+.portaIcos{
+display: flex;
+position: relative;
+align-items: center;
+}
+
+/* ico */
+.icoCart{
+    margin: 3px 3px 0 0;
+    color:white;
+}
+.nofification{
+    color:white;
+    background:red;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 14px;
+}

@@ -1,0 +1,59 @@
+.itemContainer{
+    display: inline-flex;
+    flex-direction: column;
+    min-width: auto;
+    height: 50;
+    background-color: hwb(0 75% 25%)/* #1976d2 */;
+    border-radius: 5px;
+    padding:25px 20px 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25)
+}
+.legend{
+    font-size: 10px;
+    text-align: center;
+    color:#1976d2;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.counter{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color:#1976d2;
+    padding: 3px;
+    margin: 0 0 10px;
+    background:linear-gradient(90deg, transparent, white, transparent)
+}
+.btnCount__section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+.btnCount{
+    padding:3px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#1976d2;
+    border:solid 0.5px rgba(25, 118, 210,0.5);
+    cursor: pointer;
+}
+.btnCount:active{
+    opacity: 0.85;
+}
+.portaMainBtn{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    padding: 10px 0;
+}
+.itemNotif{
+    padding:10px;
+    border: solid 0.5px rgba(25, 118, 210,0.5);
+    border-radius: 5px;
+    font-size: 12px;
+    color:#1976d2;
+    text-align: center;
+}

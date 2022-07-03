@@ -1,3 +1,5 @@
+This is an e-commerce made with ReactJs, in this app you can choose any product and see it from "viewCart", you can also delete the desired item or delete the whole purchase.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

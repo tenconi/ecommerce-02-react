@@ -1,0 +1,9 @@
+.mainCard a{
+    text-decoration: none;
+}
+.cardTit{
+color:#1976d2;
+}
+.cardPrice{
+    color: grey;
+}
